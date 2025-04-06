@@ -1,0 +1,23 @@
+[0.384s] Invoking command in '/home/troxid-vm/ros_ws_robot_2025/src/py_robot_2025_base': PYTHONPATH=/home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_robot_2025_base build --build-base /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build install --record /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/install.log --single-version-externally-managed install_data
+[0.521s] running egg_info
+[0.522s] writing ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/PKG-INFO
+[0.522s] writing dependency_links to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/dependency_links.txt
+[0.523s] writing entry points to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/entry_points.txt
+[0.523s] writing requirements to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/requires.txt
+[0.524s] writing top-level names to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/top_level.txt
+[0.525s] reading manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[0.525s] adding license file 'LICENSE'
+[0.526s] writing manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[0.527s] running build
+[0.527s] running build_py
+[0.527s] running install
+[0.528s] running install_lib
+[0.530s] running install_data
+[0.531s] copying resource/py_robot_2025_base -> /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/share/ament_index/resource_index/packages
+[0.531s] copying package.xml -> /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/share/py_robot_2025_base
+[0.531s] running install_egg_info
+[0.533s] Copying ../../build/py_robot_2025_base/py_robot_2025_base.egg-info to /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base-0.0.0-py3.10.egg-info
+[0.534s] running install_scripts
+[0.547s] Installing base script to /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/py_robot_2025_base
+[0.548s] writing list of installed files to '/home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/install.log'
+[0.562s] Invoked command in '/home/troxid-vm/ros_ws_robot_2025/src/py_robot_2025_base' returned '0': PYTHONPATH=/home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_robot_2025_base build --build-base /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build install --record /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/install.log --single-version-externally-managed install_data
