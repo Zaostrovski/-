@@ -68,3 +68,4 @@ $$ dф/dt =ω$$
 ![эл_схема](https://github.com/user-attachments/assets/c9ce414d-4dcb-4679-97c5-8a6bffce30ca)
 
 ## Прошивка микроконтроллера
+В папке my-robot-2025_v2 лежит прошивка для микроконтроллера
