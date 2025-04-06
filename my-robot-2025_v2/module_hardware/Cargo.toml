@@ -1,0 +1,48 @@
+[package]
+name = "module_hardware"
+version = "0.1.0"
+authors = ["troxid <troxid@yandex.ru>"]
+edition = "2021"
+resolver = "2"
+rust-version = "1.77"
+
+[profile.release]
+opt-level = "s"
+
+[profile.dev]
+debug = true    # Symbols are nice and they don't increase the size on Flash
+opt-level = "z"
+
+[features]
+default = []
+
+experimental = ["esp-idf-svc/experimental"]
+
+[dependencies]
+log = "0.4"
+esp-idf-svc = { version = "0.51.0", features = [] }
+anyhow = "1.0.94"
+embedded-graphics = "0.8.1"
+module_common = {path = "../module_common" }
+embedded-graphics-core = "0.4.0"
+embedded-layout = "0.4.1"
+ssd1306 = "0.10.0"
+sh1106 = "0.5.0"
+display-interface = "0.5.0"
+display-interface-spi = "0.5.0"
+
+st7567s = "0.2.1"
+strum = { version = "0.27.1", features = ["derive"] }
+
+embedded-hal = "1.0.0"
+serde_json = "1.0.134"
+json_log = { version = "0.1" }
+
+[build-dependencies]
+embuild = "0.33.0"
+cc = "=1.1.30" # Version "1.1.30" necessary until a new version of `esp-idf-sys` is released
+
+
+[[bin]]
+path = "bin/dc_module_v2.rs"
+name = "dc_module_v2"
