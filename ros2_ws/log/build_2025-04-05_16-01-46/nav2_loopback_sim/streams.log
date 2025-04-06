@@ -1,0 +1,39 @@
+[4.623s] Invoking command in '/home/opa/ros2_ws/src/navigation2/nav2_loopback_sim': PYTHONPATH=/home/opa/ros2_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/opa/ros2_ws/build/nav2_loopback_sim/build install --record /home/opa/ros2_ws/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data
+[6.575s] running egg_info
+[6.579s] creating ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info
+[6.580s] writing ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/PKG-INFO
+[6.583s] writing dependency_links to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/dependency_links.txt
+[6.584s] writing entry points to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/entry_points.txt
+[6.585s] writing requirements to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/requires.txt
+[6.586s] writing top-level names to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/top_level.txt
+[6.588s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[6.595s] package init file 'nav2_loopback_sim/__init__.py' not found (or not a regular file)
+[6.599s] reading manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[6.604s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[6.605s] running build
+[6.606s] running build_py
+[6.607s] creating /home/opa/ros2_ws/build/nav2_loopback_sim/build
+[6.608s] creating /home/opa/ros2_ws/build/nav2_loopback_sim/build/lib
+[6.609s] creating /home/opa/ros2_ws/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[6.609s] copying nav2_loopback_sim/loopback_simulator.py -> /home/opa/ros2_ws/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[6.610s] copying nav2_loopback_sim/utils.py -> /home/opa/ros2_ws/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[6.611s] running install
+[6.613s] running install_lib
+[6.618s] creating /home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2_loopback_sim
+[6.619s] copying /home/opa/ros2_ws/build/nav2_loopback_sim/build/lib/nav2_loopback_sim/loopback_simulator.py -> /home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2_loopback_sim
+[6.620s] copying /home/opa/ros2_ws/build/nav2_loopback_sim/build/lib/nav2_loopback_sim/utils.py -> /home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2_loopback_sim
+[6.625s] byte-compiling /home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2_loopback_sim/loopback_simulator.py to loopback_simulator.cpython-310.pyc
+[6.642s] byte-compiling /home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2_loopback_sim/utils.py to utils.cpython-310.pyc
+[6.645s] running install_data
+[6.646s] creating /home/opa/ros2_ws/install/nav2_loopback_sim/share/ament_index
+[6.647s] creating /home/opa/ros2_ws/install/nav2_loopback_sim/share/ament_index/resource_index
+[6.648s] creating /home/opa/ros2_ws/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[6.649s] copying resource/nav2_loopback_sim -> /home/opa/ros2_ws/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[6.650s] copying package.xml -> /home/opa/ros2_ws/install/nav2_loopback_sim/share/nav2_loopback_sim
+[6.652s] copying launch/loopback_simulation.launch.py -> /home/opa/ros2_ws/install/nav2_loopback_sim/share/nav2_loopback_sim
+[6.653s] running install_egg_info
+[6.663s] Copying ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info to /home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages/nav2_loopback_sim-1.0.0-py3.10.egg-info
+[6.676s] running install_scripts
+[6.811s] Installing loopback_simulator script to /home/opa/ros2_ws/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[6.813s] writing list of installed files to '/home/opa/ros2_ws/build/nav2_loopback_sim/install.log'
+[7.002s] Invoked command in '/home/opa/ros2_ws/src/navigation2/nav2_loopback_sim' returned '0': PYTHONPATH=/home/opa/ros2_ws/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/opa/ros2_ws/build/nav2_loopback_sim/build install --record /home/opa/ros2_ws/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data

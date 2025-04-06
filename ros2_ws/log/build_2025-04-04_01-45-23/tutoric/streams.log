@@ -1,0 +1,33 @@
+[3.240s] Invoking command in '/home/opa/ros2_ws/src/tutoric': PYTHONPATH=/home/opa/ros2_ws/build/tutoric/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tutoric build --build-base /home/opa/ros2_ws/build/tutoric/build install --record /home/opa/ros2_ws/build/tutoric/install.log --single-version-externally-managed install_data
+[4.473s] running egg_info
+[4.475s] creating ../../build/tutoric/tutoric.egg-info
+[4.476s] writing ../../build/tutoric/tutoric.egg-info/PKG-INFO
+[4.477s] writing dependency_links to ../../build/tutoric/tutoric.egg-info/dependency_links.txt
+[4.478s] writing entry points to ../../build/tutoric/tutoric.egg-info/entry_points.txt
+[4.479s] writing requirements to ../../build/tutoric/tutoric.egg-info/requires.txt
+[4.479s] writing top-level names to ../../build/tutoric/tutoric.egg-info/top_level.txt
+[4.480s] writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'
+[4.489s] reading manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'
+[4.493s] writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'
+[4.494s] running build
+[4.494s] running build_py
+[4.495s] creating /home/opa/ros2_ws/build/tutoric/build
+[4.496s] creating /home/opa/ros2_ws/build/tutoric/build/lib
+[4.496s] creating /home/opa/ros2_ws/build/tutoric/build/lib/tutoric
+[4.496s] copying tutoric/__init__.py -> /home/opa/ros2_ws/build/tutoric/build/lib/tutoric
+[4.497s] running install
+[4.498s] running install_lib
+[4.502s] creating /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric
+[4.502s] copying /home/opa/ros2_ws/build/tutoric/build/lib/tutoric/__init__.py -> /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric
+[4.505s] byte-compiling /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric/__init__.py to __init__.cpython-310.pyc
+[4.506s] running install_data
+[4.507s] creating /home/opa/ros2_ws/install/tutoric/share/ament_index
+[4.508s] creating /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index
+[4.508s] creating /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages
+[4.508s] copying resource/tutoric -> /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages
+[4.509s] copying package.xml -> /home/opa/ros2_ws/install/tutoric/share/tutoric
+[4.509s] running install_egg_info
+[4.517s] Copying ../../build/tutoric/tutoric.egg-info to /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric-0.0.0-py3.10.egg-info
+[4.523s] running install_scripts
+[4.616s] writing list of installed files to '/home/opa/ros2_ws/build/tutoric/install.log'
+[4.747s] Invoked command in '/home/opa/ros2_ws/src/tutoric' returned '0': PYTHONPATH=/home/opa/ros2_ws/build/tutoric/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tutoric build --build-base /home/opa/ros2_ws/build/tutoric/build install --record /home/opa/ros2_ws/build/tutoric/install.log --single-version-externally-managed install_data

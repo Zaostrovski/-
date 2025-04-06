@@ -1,0 +1,28 @@
+[package]
+name = "module_common"
+version = "0.1.0"
+authors = ["troxid <troxid@yandex.ru>"]
+edition = "2021"
+resolver = "2"
+rust-version = "1.77"
+
+
+[profile.release]
+opt-level = "s"
+
+[profile.dev]
+debug = true    # Symbols are nice and they don't increase the size on Flash
+opt-level = "z"
+
+[features]
+default = []
+
+[dependencies]
+log = "0.4"
+anyhow = "1.0.94"
+embedded-graphics = "0.8.1"
+embedded-graphics-core = "0.4.0"
+embedded-layout = "0.4.1"
+serde = { version = "1.0" , features = ["derive"] }
+serde_json = "1.0"
+

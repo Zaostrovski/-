@@ -1,0 +1,22 @@
+[0.688s] Invoking command in '/home/eprikovn/ros_ws_robot_2025/src/py_robot_2025_base': PYTHONPATH=/home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eprikovn/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_robot_2025_base build --build-base /home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/build install --record /home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/install.log --single-version-externally-managed install_data
+[0.958s] running egg_info
+[0.959s] writing ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/PKG-INFO
+[0.959s] writing dependency_links to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/dependency_links.txt
+[0.959s] writing entry points to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/entry_points.txt
+[0.960s] writing requirements to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/requires.txt
+[0.960s] writing top-level names to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/top_level.txt
+[0.962s] reading manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[0.962s] adding license file 'LICENSE'
+[0.963s] writing manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[0.963s] running build
+[0.963s] running build_py
+[0.963s] running install
+[0.963s] running install_lib
+[0.965s] running install_data
+[0.965s] running install_egg_info
+[0.967s] removing '/home/eprikovn/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base-0.0.0-py3.10.egg-info' (and everything under it)
+[0.967s] Copying ../../build/py_robot_2025_base/py_robot_2025_base.egg-info to /home/eprikovn/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base-0.0.0-py3.10.egg-info
+[0.968s] running install_scripts
+[0.991s] Installing base script to /home/eprikovn/ros_ws_robot_2025/install/py_robot_2025_base/lib/py_robot_2025_base
+[0.992s] writing list of installed files to '/home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/install.log'
+[1.022s] Invoked command in '/home/eprikovn/ros_ws_robot_2025/src/py_robot_2025_base' returned '0': PYTHONPATH=/home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eprikovn/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_robot_2025_base build --build-base /home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/build install --record /home/eprikovn/ros_ws_robot_2025/build/py_robot_2025_base/install.log --single-version-externally-managed install_data

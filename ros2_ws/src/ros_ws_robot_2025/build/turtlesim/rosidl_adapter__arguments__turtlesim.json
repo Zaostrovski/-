@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:action/RotateAbsolute.action",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:msg/Color.msg",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:msg/Pose.msg",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:srv/Kill.srv",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:srv/SetPen.srv",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:srv/Spawn.srv",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/troxid-vm/ros_ws_robot_2025/src/ros_tutorials/turtlesim:srv/TeleportRelative.srv"
+  ]
+}

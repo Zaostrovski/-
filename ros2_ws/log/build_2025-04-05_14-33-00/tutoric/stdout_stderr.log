@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing tutoric.egg-info/PKG-INFO
+writing dependency_links to tutoric.egg-info/dependency_links.txt
+writing entry points to tutoric.egg-info/entry_points.txt
+writing requirements to tutoric.egg-info/requires.txt
+writing top-level names to tutoric.egg-info/top_level.txt
+reading manifest file 'tutoric.egg-info/SOURCES.txt'
+writing manifest file 'tutoric.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric.egg-link (link to .)
+
+Installed /home/opa/ros2_ws/build/tutoric
+running symlink_data
+symbolically linking /home/opa/ros2_ws/build/tutoric/resource/tutoric -> /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages
+symbolically linking /home/opa/ros2_ws/build/tutoric/package.xml -> /home/opa/ros2_ws/install/tutoric/share/tutoric

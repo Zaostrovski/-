@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "module_hardware",
+    "module_common",
+]
+
+exclude = [
+]

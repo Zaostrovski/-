@@ -1,0 +1,24 @@
+[33mCMake Warning at CMakeLists.txt:11 (find_package):
+  By not providing "Findgeographic_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "geographic_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "geographic_msgs"
+  with any of the following names:
+
+    geographic_msgsConfig.cmake
+    geographic_msgs-config.cmake
+
+  Add the installation prefix of "geographic_msgs" to CMAKE_PREFIX_PATH or
+  set "geographic_msgs_DIR" to a directory containing one of the above files.
+  If "geographic_msgs" provides a separate development package or SDK, be
+  sure it has been installed.
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:162 (message):
+  rosidl_generate_interfaces() the passed dependency 'geographic_msgs' has
+  not been found before using find_package()
+Call Stack (most recent call first):
+  CMakeLists.txt:21 (rosidl_generate_interfaces)
+
+[0m

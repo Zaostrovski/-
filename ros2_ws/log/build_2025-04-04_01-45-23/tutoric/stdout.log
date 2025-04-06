@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/tutoric/tutoric.egg-info
+writing ../../build/tutoric/tutoric.egg-info/PKG-INFO
+writing dependency_links to ../../build/tutoric/tutoric.egg-info/dependency_links.txt
+writing entry points to ../../build/tutoric/tutoric.egg-info/entry_points.txt
+writing requirements to ../../build/tutoric/tutoric.egg-info/requires.txt
+writing top-level names to ../../build/tutoric/tutoric.egg-info/top_level.txt
+writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'
+reading manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'
+writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/opa/ros2_ws/build/tutoric/build
+creating /home/opa/ros2_ws/build/tutoric/build/lib
+creating /home/opa/ros2_ws/build/tutoric/build/lib/tutoric
+copying tutoric/__init__.py -> /home/opa/ros2_ws/build/tutoric/build/lib/tutoric
+running install
+running install_lib
+creating /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric
+copying /home/opa/ros2_ws/build/tutoric/build/lib/tutoric/__init__.py -> /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric
+byte-compiling /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/opa/ros2_ws/install/tutoric/share/ament_index
+creating /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index
+creating /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages
+copying resource/tutoric -> /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages
+copying package.xml -> /home/opa/ros2_ws/install/tutoric/share/tutoric
+running install_egg_info
+Copying ../../build/tutoric/tutoric.egg-info to /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/opa/ros2_ws/build/tutoric/install.log'

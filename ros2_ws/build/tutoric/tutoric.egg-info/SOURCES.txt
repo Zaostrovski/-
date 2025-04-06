@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/tutoric/tutoric.egg-info/PKG-INFO
+../../build/tutoric/tutoric.egg-info/SOURCES.txt
+../../build/tutoric/tutoric.egg-info/dependency_links.txt
+../../build/tutoric/tutoric.egg-info/entry_points.txt
+../../build/tutoric/tutoric.egg-info/requires.txt
+../../build/tutoric/tutoric.egg-info/top_level.txt
+../../build/tutoric/tutoric.egg-info/zip-safe
+resource/tutoric
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+tutoric/__init__.py

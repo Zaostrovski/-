@@ -1,0 +1,22 @@
+
+
+install dependencies
+```sh
+rosdep install -i --from-path src --rosdistro humble -y
+```
+
+build package
+```sh
+colcon build --packages-select py_robot_2025_base
+```
+
+setup exe files
+```sh
+source install/setup.bash
+```
+
+
+run node 
+```sh
+ros2 run py_robot_2025_base base
+```

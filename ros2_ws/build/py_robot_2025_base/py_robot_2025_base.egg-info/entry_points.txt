@@ -1,0 +1,3 @@
+[console_scripts]
+base = py_robot_2025_base.base:main
+

@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000919] (tutoric) JobQueued: {'identifier': 'tutoric', 'dependencies': OrderedDict()}
+[0.001870] (tutoric) JobStarted: {'identifier': 'tutoric'}
+[0.098957] (-) TimerEvent: {}
+[0.199716] (-) TimerEvent: {}
+[0.300412] (-) TimerEvent: {}
+[0.401175] (-) TimerEvent: {}
+[0.501880] (-) TimerEvent: {}
+[0.602546] (-) TimerEvent: {}
+[0.703267] (-) TimerEvent: {}
+[0.803952] (-) TimerEvent: {}
+[0.904608] (-) TimerEvent: {}
+[1.005317] (-) TimerEvent: {}
+[1.106003] (-) TimerEvent: {}
+[1.206721] (-) TimerEvent: {}
+[1.307672] (-) TimerEvent: {}
+[1.408952] (-) TimerEvent: {}
+[1.509755] (-) TimerEvent: {}
+[1.610490] (-) TimerEvent: {}
+[1.711256] (-) TimerEvent: {}
+[1.812092] (-) TimerEvent: {}
+[1.912832] (-) TimerEvent: {}
+[2.013489] (-) TimerEvent: {}
+[2.114192] (-) TimerEvent: {}
+[2.214929] (-) TimerEvent: {}
+[2.315588] (-) TimerEvent: {}
+[2.416269] (-) TimerEvent: {}
+[2.516974] (-) TimerEvent: {}
+[2.617936] (-) TimerEvent: {}
+[2.718669] (-) TimerEvent: {}
+[2.819328] (-) TimerEvent: {}
+[2.920036] (-) TimerEvent: {}
+[3.020767] (-) TimerEvent: {}
+[3.121651] (-) TimerEvent: {}
+[3.222864] (-) TimerEvent: {}
+[3.239358] (tutoric) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tutoric', 'build', '--build-base', '/home/opa/ros2_ws/build/tutoric/build', 'install', '--record', '/home/opa/ros2_ws/build/tutoric/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/opa/ros2_ws/src/tutoric', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'opa', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/opa', 'OLDPWD': '/home/opa', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ru_RU.UTF-8', 'SYSTEMD_EXEC_PID': '1186', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/opa/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'opa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'opa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/opa-desktop:@/tmp/.ICE-unix/1157,unix/opa-desktop:/tmp/.ICE-unix/1157', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ru_RU.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/78589d59_3593_4daa_a03c_57d0e7e0683d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.F9I632', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.96', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/opa/ros2_ws/build/tutoric', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/opa/ros2_ws/build/tutoric/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.323040] (-) TimerEvent: {}
+[3.423787] (-) TimerEvent: {}
+[3.524478] (-) TimerEvent: {}
+[3.625230] (-) TimerEvent: {}
+[3.726082] (-) TimerEvent: {}
+[3.826747] (-) TimerEvent: {}
+[3.927416] (-) TimerEvent: {}
+[4.028115] (-) TimerEvent: {}
+[4.128775] (-) TimerEvent: {}
+[4.229466] (-) TimerEvent: {}
+[4.330225] (-) TimerEvent: {}
+[4.430977] (-) TimerEvent: {}
+[4.474368] (tutoric) StdoutLine: {'line': b'running egg_info\n'}
+[4.476952] (tutoric) StdoutLine: {'line': b'creating ../../build/tutoric/tutoric.egg-info\n'}
+[4.477822] (tutoric) StdoutLine: {'line': b'writing ../../build/tutoric/tutoric.egg-info/PKG-INFO\n'}
+[4.479064] (tutoric) StdoutLine: {'line': b'writing dependency_links to ../../build/tutoric/tutoric.egg-info/dependency_links.txt\n'}
+[4.479741] (tutoric) StdoutLine: {'line': b'writing entry points to ../../build/tutoric/tutoric.egg-info/entry_points.txt\n'}
+[4.480307] (tutoric) StdoutLine: {'line': b'writing requirements to ../../build/tutoric/tutoric.egg-info/requires.txt\n'}
+[4.480851] (tutoric) StdoutLine: {'line': b'writing top-level names to ../../build/tutoric/tutoric.egg-info/top_level.txt\n'}
+[4.481734] (tutoric) StdoutLine: {'line': b"writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'\n"}
+[4.490529] (tutoric) StdoutLine: {'line': b"reading manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'\n"}
+[4.494827] (tutoric) StdoutLine: {'line': b"writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'\n"}
+[4.495550] (tutoric) StdoutLine: {'line': b'running build\n'}
+[4.495990] (tutoric) StdoutLine: {'line': b'running build_py\n'}
+[4.496542] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/build/tutoric/build\n'}
+[4.497155] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/build/tutoric/build/lib\n'}
+[4.497654] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/build/tutoric/build/lib/tutoric\n'}
+[4.498034] (tutoric) StdoutLine: {'line': b'copying tutoric/__init__.py -> /home/opa/ros2_ws/build/tutoric/build/lib/tutoric\n'}
+[4.498535] (tutoric) StdoutLine: {'line': b'running install\n'}
+[4.499820] (tutoric) StdoutLine: {'line': b'running install_lib\n'}
+[4.503319] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric\n'}
+[4.503970] (tutoric) StdoutLine: {'line': b'copying /home/opa/ros2_ws/build/tutoric/build/lib/tutoric/__init__.py -> /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric\n'}
+[4.506411] (tutoric) StdoutLine: {'line': b'byte-compiling /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric/__init__.py to __init__.cpython-310.pyc\n'}
+[4.507896] (tutoric) StdoutLine: {'line': b'running install_data\n'}
+[4.508481] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/tutoric/share/ament_index\n'}
+[4.509112] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index\n'}
+[4.509615] (tutoric) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages\n'}
+[4.509993] (tutoric) StdoutLine: {'line': b'copying resource/tutoric -> /home/opa/ros2_ws/install/tutoric/share/ament_index/resource_index/packages\n'}
+[4.510486] (tutoric) StdoutLine: {'line': b'copying package.xml -> /home/opa/ros2_ws/install/tutoric/share/tutoric\n'}
+[4.511038] (tutoric) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.518817] (tutoric) StdoutLine: {'line': b'Copying ../../build/tutoric/tutoric.egg-info to /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric-0.0.0-py3.10.egg-info\n'}
+[4.524526] (tutoric) StdoutLine: {'line': b'running install_scripts\n'}
+[4.531117] (-) TimerEvent: {}
+[4.617778] (tutoric) StdoutLine: {'line': b"writing list of installed files to '/home/opa/ros2_ws/build/tutoric/install.log'\n"}
+[4.631475] (-) TimerEvent: {}
+[4.732749] (-) TimerEvent: {}
+[4.748503] (tutoric) CommandEnded: {'returncode': 0}
+[4.823552] (tutoric) JobEnded: {'identifier': 'tutoric', 'rc': 0}
+[4.826158] (-) EventReactorShutdown: {}

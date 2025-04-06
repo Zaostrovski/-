@@ -1,0 +1,3 @@
+[console_scripts]
+loopback_simulator = nav2_loopback_sim.loopback_simulator:main
+

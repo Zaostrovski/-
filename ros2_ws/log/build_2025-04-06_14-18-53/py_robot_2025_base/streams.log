@@ -1,0 +1,38 @@
+[3.207s] Invoking command in '/home/opa/ros2_ws/ros_ws_robot_2025/src/py_robot_2025_base': PYTHONPATH=/home/opa/ros2_ws/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_robot_2025_base build --build-base /home/opa/ros2_ws/build/py_robot_2025_base/build install --record /home/opa/ros2_ws/build/py_robot_2025_base/install.log --single-version-externally-managed install_data
+[4.443s] running egg_info
+[4.446s] creating ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info
+[4.447s] writing ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/PKG-INFO
+[4.448s] writing dependency_links to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/dependency_links.txt
+[4.449s] writing entry points to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/entry_points.txt
+[4.449s] writing requirements to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/requires.txt
+[4.450s] writing top-level names to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/top_level.txt
+[4.451s] writing manifest file '../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[4.458s] reading manifest file '../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[4.459s] adding license file 'LICENSE'
+[4.462s] writing manifest file '../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+[4.463s] running build
+[4.463s] running build_py
+[4.464s] creating /home/opa/ros2_ws/build/py_robot_2025_base/build
+[4.464s] creating /home/opa/ros2_ws/build/py_robot_2025_base/build/lib
+[4.465s] creating /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base
+[4.465s] copying py_robot_2025_base/__init__.py -> /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base
+[4.466s] copying py_robot_2025_base/base.py -> /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base
+[4.467s] running install
+[4.469s] running install_lib
+[4.472s] creating /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base
+[4.472s] copying /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base/__init__.py -> /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base
+[4.473s] copying /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base/base.py -> /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base
+[4.476s] byte-compiling /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base/__init__.py to __init__.cpython-310.pyc
+[4.478s] byte-compiling /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base/base.py to base.cpython-310.pyc
+[4.480s] running install_data
+[4.481s] creating /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index
+[4.481s] creating /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index/resource_index
+[4.482s] creating /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index/resource_index/packages
+[4.482s] copying resource/py_robot_2025_base -> /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index/resource_index/packages
+[4.483s] copying package.xml -> /home/opa/ros2_ws/install/py_robot_2025_base/share/py_robot_2025_base
+[4.483s] running install_egg_info
+[4.491s] Copying ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info to /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base-0.0.0-py3.10.egg-info
+[4.497s] running install_scripts
+[4.589s] Installing base script to /home/opa/ros2_ws/install/py_robot_2025_base/lib/py_robot_2025_base
+[4.591s] writing list of installed files to '/home/opa/ros2_ws/build/py_robot_2025_base/install.log'
+[4.712s] Invoked command in '/home/opa/ros2_ws/ros_ws_robot_2025/src/py_robot_2025_base' returned '0': PYTHONPATH=/home/opa/ros2_ws/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_robot_2025_base build --build-base /home/opa/ros2_ws/build/py_robot_2025_base/build install --record /home/opa/ros2_ws/build/py_robot_2025_base/install.log --single-version-externally-managed install_data

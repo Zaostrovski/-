@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.001370] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001646] (-) JobUnselected: {'identifier': 'tutoric'}
+[0.001985] (py_robot_2025_base) JobQueued: {'identifier': 'py_robot_2025_base', 'dependencies': OrderedDict()}
+[0.002181] (py_robot_2025_base) JobStarted: {'identifier': 'py_robot_2025_base'}
+[0.097864] (-) TimerEvent: {}
+[0.198497] (-) TimerEvent: {}
+[0.299193] (-) TimerEvent: {}
+[0.399877] (-) TimerEvent: {}
+[0.500501] (-) TimerEvent: {}
+[0.601115] (-) TimerEvent: {}
+[0.701771] (-) TimerEvent: {}
+[0.802438] (-) TimerEvent: {}
+[0.903031] (-) TimerEvent: {}
+[1.003708] (-) TimerEvent: {}
+[1.104467] (-) TimerEvent: {}
+[1.205078] (-) TimerEvent: {}
+[1.305803] (-) TimerEvent: {}
+[1.406797] (-) TimerEvent: {}
+[1.507712] (-) TimerEvent: {}
+[1.608359] (-) TimerEvent: {}
+[1.709077] (-) TimerEvent: {}
+[1.809718] (-) TimerEvent: {}
+[1.910342] (-) TimerEvent: {}
+[2.010949] (-) TimerEvent: {}
+[2.111887] (-) TimerEvent: {}
+[2.212516] (-) TimerEvent: {}
+[2.313139] (-) TimerEvent: {}
+[2.413744] (-) TimerEvent: {}
+[2.514384] (-) TimerEvent: {}
+[2.615055] (-) TimerEvent: {}
+[2.715760] (-) TimerEvent: {}
+[2.816502] (-) TimerEvent: {}
+[2.917281] (-) TimerEvent: {}
+[3.018029] (-) TimerEvent: {}
+[3.118815] (-) TimerEvent: {}
+[3.206444] (py_robot_2025_base) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/py_robot_2025_base', 'build', '--build-base', '/home/opa/ros2_ws/build/py_robot_2025_base/build', 'install', '--record', '/home/opa/ros2_ws/build/py_robot_2025_base/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/opa/ros2_ws/ros_ws_robot_2025/src/py_robot_2025_base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'opa', 'SSH_CLIENT': '192.168.220.232 12336 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/opa', 'OLDPWD': '/home/opa', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/opa/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'opa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/opa/ros2_ws/install/tutoric:/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_loopback_sim:/home/opa/ros2_ws/install/nav2_common:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'PWD': '/home/opa/ros2_ws/build/py_robot_2025_base', 'SSH_CONNECTION': '192.168.220.232 12336 192.168.220.103 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/opa/ros2_ws/build/py_robot_2025_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_common'}, 'shell': False}
+[3.218971] (-) TimerEvent: {}
+[3.323272] (-) TimerEvent: {}
+[3.423931] (-) TimerEvent: {}
+[3.524637] (-) TimerEvent: {}
+[3.625265] (-) TimerEvent: {}
+[3.725879] (-) TimerEvent: {}
+[3.826552] (-) TimerEvent: {}
+[3.927202] (-) TimerEvent: {}
+[4.027819] (-) TimerEvent: {}
+[4.128493] (-) TimerEvent: {}
+[4.229104] (-) TimerEvent: {}
+[4.329739] (-) TimerEvent: {}
+[4.430367] (-) TimerEvent: {}
+[4.444326] (py_robot_2025_base) StdoutLine: {'line': b'running egg_info\n'}
+[4.447786] (py_robot_2025_base) StdoutLine: {'line': b'creating ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info\n'}
+[4.448660] (py_robot_2025_base) StdoutLine: {'line': b'writing ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/PKG-INFO\n'}
+[4.449810] (py_robot_2025_base) StdoutLine: {'line': b'writing dependency_links to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/dependency_links.txt\n'}
+[4.450440] (py_robot_2025_base) StdoutLine: {'line': b'writing entry points to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/entry_points.txt\n'}
+[4.451063] (py_robot_2025_base) StdoutLine: {'line': b'writing requirements to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/requires.txt\n'}
+[4.451629] (py_robot_2025_base) StdoutLine: {'line': b'writing top-level names to ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/top_level.txt\n'}
+[4.452560] (py_robot_2025_base) StdoutLine: {'line': b"writing manifest file '../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'\n"}
+[4.459949] (py_robot_2025_base) StdoutLine: {'line': b"reading manifest file '../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'\n"}
+[4.461219] (py_robot_2025_base) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.463834] (py_robot_2025_base) StdoutLine: {'line': b"writing manifest file '../../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'\n"}
+[4.464585] (py_robot_2025_base) StdoutLine: {'line': b'running build\n'}
+[4.465125] (py_robot_2025_base) StdoutLine: {'line': b'running build_py\n'}
+[4.465727] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/build/py_robot_2025_base/build\n'}
+[4.466310] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/build/py_robot_2025_base/build/lib\n'}
+[4.466805] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base\n'}
+[4.467200] (py_robot_2025_base) StdoutLine: {'line': b'copying py_robot_2025_base/__init__.py -> /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base\n'}
+[4.467671] (py_robot_2025_base) StdoutLine: {'line': b'copying py_robot_2025_base/base.py -> /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base\n'}
+[4.469118] (py_robot_2025_base) StdoutLine: {'line': b'running install\n'}
+[4.470482] (py_robot_2025_base) StdoutLine: {'line': b'running install_lib\n'}
+[4.473820] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base\n'}
+[4.474413] (py_robot_2025_base) StdoutLine: {'line': b'copying /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base/__init__.py -> /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base\n'}
+[4.475157] (py_robot_2025_base) StdoutLine: {'line': b'copying /home/opa/ros2_ws/build/py_robot_2025_base/build/lib/py_robot_2025_base/base.py -> /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base\n'}
+[4.478095] (py_robot_2025_base) StdoutLine: {'line': b'byte-compiling /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base/__init__.py to __init__.cpython-310.pyc\n'}
+[4.479485] (py_robot_2025_base) StdoutLine: {'line': b'byte-compiling /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base/base.py to base.cpython-310.pyc\n'}
+[4.482197] (py_robot_2025_base) StdoutLine: {'line': b'running install_data\n'}
+[4.482787] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index\n'}
+[4.483361] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index/resource_index\n'}
+[4.483849] (py_robot_2025_base) StdoutLine: {'line': b'creating /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index/resource_index/packages\n'}
+[4.484220] (py_robot_2025_base) StdoutLine: {'line': b'copying resource/py_robot_2025_base -> /home/opa/ros2_ws/install/py_robot_2025_base/share/ament_index/resource_index/packages\n'}
+[4.484870] (py_robot_2025_base) StdoutLine: {'line': b'copying package.xml -> /home/opa/ros2_ws/install/py_robot_2025_base/share/py_robot_2025_base\n'}
+[4.485365] (py_robot_2025_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.493190] (py_robot_2025_base) StdoutLine: {'line': b'Copying ../../../build/py_robot_2025_base/py_robot_2025_base.egg-info to /home/opa/ros2_ws/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base-0.0.0-py3.10.egg-info\n'}
+[4.499225] (py_robot_2025_base) StdoutLine: {'line': b'running install_scripts\n'}
+[4.530553] (-) TimerEvent: {}
+[4.590920] (py_robot_2025_base) StdoutLine: {'line': b'Installing base script to /home/opa/ros2_ws/install/py_robot_2025_base/lib/py_robot_2025_base\n'}
+[4.593085] (py_robot_2025_base) StdoutLine: {'line': b"writing list of installed files to '/home/opa/ros2_ws/build/py_robot_2025_base/install.log'\n"}
+[4.630859] (-) TimerEvent: {}
+[4.713928] (py_robot_2025_base) CommandEnded: {'returncode': 0}
+[4.731068] (-) TimerEvent: {}
+[4.785562] (py_robot_2025_base) JobEnded: {'identifier': 'py_robot_2025_base', 'rc': 0}
+[4.788748] (-) EventReactorShutdown: {}

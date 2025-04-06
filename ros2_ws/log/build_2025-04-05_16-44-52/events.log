@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.001950] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.002091] (tutoric) JobQueued: {'identifier': 'tutoric', 'dependencies': OrderedDict()}
+[0.002190] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.037371] (tutoric) JobStarted: {'identifier': 'tutoric'}
+[0.076461] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.079666] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.083273] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/opa/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/opa/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'opa'), ('SSH_CLIENT', '192.168.220.232 1298 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/opa'), ('OLDPWD', '/home/opa'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/opa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'opa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '17'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/opa/ros2_ws/install/tutoric:/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_loopback_sim:/home/opa/ros2_ws/install/nav2_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/opa/ros2_ws/build/rplidar_ros'), ('SSH_CONNECTION', '192.168.220.232 1298 192.168.220.103 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/opa/ros2_ws/build/tutoric:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_common:/home/opa/ros2_ws/install/tutoric:/home/opa/ros2_ws/install/nav2_loopback_sim:/opt/ros/humble')]), 'shell': False}
+[0.099958] (-) TimerEvent: {}
+[0.201404] (-) TimerEvent: {}
+[0.302596] (-) TimerEvent: {}
+[0.403551] (-) TimerEvent: {}
+[0.406380] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[0.438044] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_node\n'}
+[0.442339] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[0.503736] (-) TimerEvent: {}
+[0.604472] (-) TimerEvent: {}
+[0.705159] (-) TimerEvent: {}
+[0.805811] (-) TimerEvent: {}
+[0.906444] (-) TimerEvent: {}
+[1.007154] (-) TimerEvent: {}
+[1.107794] (-) TimerEvent: {}
+[1.208572] (-) TimerEvent: {}
+[1.309231] (-) TimerEvent: {}
+[1.410009] (-) TimerEvent: {}
+[1.511648] (-) TimerEvent: {}
+[1.515794] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.518686] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[1.559995] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/opa/ros2_ws/build/rplidar_ros'], 'cwd': '/home/opa/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'opa'), ('SSH_CLIENT', '192.168.220.232 1298 22'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/opa'), ('OLDPWD', '/home/opa'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/opa/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'opa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '17'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/opa/ros2_ws/install/tutoric:/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_loopback_sim:/home/opa/ros2_ws/install/nav2_common:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('PWD', '/home/opa/ros2_ws/build/rplidar_ros'), ('SSH_CONNECTION', '192.168.220.232 1298 192.168.220.103 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/opa/ros2_ws/build/tutoric:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_common:/home/opa/ros2_ws/install/tutoric:/home/opa/ros2_ws/install/nav2_loopback_sim:/opt/ros/humble')]), 'shell': False}
+[1.592870] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.594764] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.598280] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[1.599100] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[1.599867] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[1.600685] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[1.601457] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[1.602230] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[1.603014] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[1.603821] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[1.604667] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[1.605469] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[1.606477] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[1.607434] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[1.608737] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[1.609552] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[1.610396] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[1.611644] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[1.612188] (-) TimerEvent: {}
+[1.613552] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[1.614094] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[1.614705] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[1.615324] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[1.616096] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[1.617007] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[1.617829] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[1.618763] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[1.620375] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[1.621972] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[1.623062] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[1.624036] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[1.625487] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[1.626927] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[1.628176] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[1.629332] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[1.630499] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[1.631668] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[1.632763] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[1.633833] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[1.634980] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[1.636116] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[1.636870] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[1.675991] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[1.677055] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.678242] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.679376] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[1.680279] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[1.681326] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/opa/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[1.687855] (rplidar_ros) CommandEnded: {'returncode': 0}
+[1.712575] (-) TimerEvent: {}
+[1.792772] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[1.812738] (-) TimerEvent: {}
+[1.913394] (-) TimerEvent: {}
+[2.014028] (-) TimerEvent: {}
+[2.114690] (-) TimerEvent: {}
+[2.215345] (-) TimerEvent: {}
+[2.316079] (-) TimerEvent: {}
+[2.416672] (-) TimerEvent: {}
+[2.517264] (-) TimerEvent: {}
+[2.617916] (-) TimerEvent: {}
+[2.718529] (-) TimerEvent: {}
+[2.819156] (-) TimerEvent: {}
+[2.919775] (-) TimerEvent: {}
+[3.020398] (-) TimerEvent: {}
+[3.121180] (-) TimerEvent: {}
+[3.222492] (-) TimerEvent: {}
+[3.229206] (tutoric) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tutoric', 'build', '--build-base', '/home/opa/ros2_ws/build/tutoric/build', 'install', '--record', '/home/opa/ros2_ws/build/tutoric/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/opa/ros2_ws/src/tutoric', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'opa', 'SSH_CLIENT': '192.168.220.232 1298 22', 'LC_TIME': 'ru_RU.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/opa', 'OLDPWD': '/home/opa', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'ru_RU.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/opa/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'opa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '17', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'ru_RU.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'ru_RU.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/opa/ros2_ws/install/tutoric:/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_loopback_sim:/home/opa/ros2_ws/install/nav2_common:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ru_RU.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ru_RU.UTF-8', 'LC_IDENTIFICATION': 'ru_RU.UTF-8', 'PWD': '/home/opa/ros2_ws/build/tutoric', 'SSH_CONNECTION': '192.168.220.232 1298 192.168.220.103 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/opa/ros2_ws/build/tutoric/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:/home/opa/ros2_ws/build/tutoric:/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_loopback_sim/lib/python3.10/site-packages:/home/opa/ros2_ws/install/nav2_common/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ru_RU.UTF-8', 'LC_PAPER': 'ru_RU.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/opa/ros2_ws/install/rplidar_ros:/home/opa/ros2_ws/install/nav2_common'}, 'shell': False}
+[3.322672] (-) TimerEvent: {}
+[3.423429] (-) TimerEvent: {}
+[3.524528] (-) TimerEvent: {}
+[3.625360] (-) TimerEvent: {}
+[3.726041] (-) TimerEvent: {}
+[3.826798] (-) TimerEvent: {}
+[3.927444] (-) TimerEvent: {}
+[4.028046] (-) TimerEvent: {}
+[4.128632] (-) TimerEvent: {}
+[4.229299] (-) TimerEvent: {}
+[4.329993] (-) TimerEvent: {}
+[4.430641] (-) TimerEvent: {}
+[4.460523] (tutoric) StdoutLine: {'line': b'running egg_info\n'}
+[4.464182] (tutoric) StdoutLine: {'line': b'writing ../../build/tutoric/tutoric.egg-info/PKG-INFO\n'}
+[4.465321] (tutoric) StdoutLine: {'line': b'writing dependency_links to ../../build/tutoric/tutoric.egg-info/dependency_links.txt\n'}
+[4.466268] (tutoric) StdoutLine: {'line': b'writing entry points to ../../build/tutoric/tutoric.egg-info/entry_points.txt\n'}
+[4.467090] (tutoric) StdoutLine: {'line': b'writing requirements to ../../build/tutoric/tutoric.egg-info/requires.txt\n'}
+[4.467865] (tutoric) StdoutLine: {'line': b'writing top-level names to ../../build/tutoric/tutoric.egg-info/top_level.txt\n'}
+[4.476206] (tutoric) StdoutLine: {'line': b"reading manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'\n"}
+[4.480143] (tutoric) StdoutLine: {'line': b"writing manifest file '../../build/tutoric/tutoric.egg-info/SOURCES.txt'\n"}
+[4.480819] (tutoric) StdoutLine: {'line': b'running build\n'}
+[4.481236] (tutoric) StdoutLine: {'line': b'running build_py\n'}
+[4.482139] (tutoric) StdoutLine: {'line': b'running install\n'}
+[4.483512] (tutoric) StdoutLine: {'line': b'running install_lib\n'}
+[4.489043] (tutoric) StdoutLine: {'line': b'running install_data\n'}
+[4.489682] (tutoric) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.497737] (tutoric) StdoutLine: {'line': b"removing '/home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.499663] (tutoric) StdoutLine: {'line': b'Copying ../../build/tutoric/tutoric.egg-info to /home/opa/ros2_ws/install/tutoric/lib/python3.10/site-packages/tutoric-0.0.0-py3.10.egg-info\n'}
+[4.505205] (tutoric) StdoutLine: {'line': b'running install_scripts\n'}
+[4.530946] (-) TimerEvent: {}
+[4.597551] (tutoric) StdoutLine: {'line': b"writing list of installed files to '/home/opa/ros2_ws/build/tutoric/install.log'\n"}
+[4.631186] (-) TimerEvent: {}
+[4.720769] (tutoric) CommandEnded: {'returncode': 0}
+[4.731544] (-) TimerEvent: {}
+[4.755117] (tutoric) JobEnded: {'identifier': 'tutoric', 'rc': 0}
+[4.757814] (-) EventReactorShutdown: {}

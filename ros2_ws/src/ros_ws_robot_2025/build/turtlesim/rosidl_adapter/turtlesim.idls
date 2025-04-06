@@ -1,0 +1,8 @@
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/troxid-vm/ros_ws_robot_2025/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl

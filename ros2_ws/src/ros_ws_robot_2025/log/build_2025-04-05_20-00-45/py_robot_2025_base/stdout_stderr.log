@@ -1,0 +1,30 @@
+running egg_info
+creating ../../build/py_robot_2025_base/py_robot_2025_base.egg-info
+writing ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/dependency_links.txt
+writing entry points to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/entry_points.txt
+writing requirements to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/requires.txt
+writing top-level names to ../../build/py_robot_2025_base/py_robot_2025_base.egg-info/top_level.txt
+writing manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/py_robot_2025_base/py_robot_2025_base.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build
+creating /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build/lib
+creating /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build/lib/py_robot_2025_base
+copying py_robot_2025_base/base.py -> /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build/lib/py_robot_2025_base
+copying py_robot_2025_base/__init__.py -> /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build/lib/py_robot_2025_base
+running install
+running install_lib
+creating /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base
+copying /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build/lib/py_robot_2025_base/base.py -> /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base
+copying /home/troxid-vm/ros_ws_robot_2025/build/py_robot_2025_base/build/lib/py_robot_2025_base/__init__.py -> /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base
+byte-compiling /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base/base.py to base.cpython-310.pyc
+byte-compiling /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/lib/python3.10/site-packages/py_robot_2025_base/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/share/ament_index
+creating /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/share/ament_index/resource_index
+creating /home/troxid-vm/ros_ws_robot_2025/install/py_robot_2025_base/share/ament_index/resource_index/packages
+error: can't copy 'resource/py_robot_2025_base': doesn't exist or not a regular file
